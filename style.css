@@ -133,7 +133,7 @@ body {
   align-items: center;
 }
 
-.list-item>* {
+.list-item > * {
   vertical-align: middle;
 }
 
