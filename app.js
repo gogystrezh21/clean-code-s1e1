@@ -22,6 +22,7 @@ var createNewTaskElement = function(taskString){
 
   //input (checkbox)
   var checkBox = document.createElement("input");//checkbx
+  checkBox.classList.add("list-item__checkbox")
   //label
   var label = document.createElement("label");//label
   //input (text)
@@ -32,6 +33,7 @@ var createNewTaskElement = function(taskString){
   //button.delete
   var deleteButton = document.createElement("button");//delete button
   var deleteButtonImg = document.createElement("img");//delete button image
+  deleteButtonImg.classList.add("list-item__btn-img");
 
   label.innerText = taskString;
   label.className = 'list-item__label';
